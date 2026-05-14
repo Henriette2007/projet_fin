@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Médecins — Gestion d'hôpital</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body class="layout-body">
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">H</span>
+      <span>Gestion d'hôpital</span>
+    </a>
+    <nav class="nav-main" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="patients.html">Patients</a>
+      <a href="medecins.html" class="is-active">Médecins</a>
+      <a href="rendez-vous.html">Rendez-vous</a>
+      <a href="connexion.html">Connexion</a>
+    </nav>
+  </header>
+
+  <main class="site-main">
+    <h1 class="page-title">Médecins</h1>
+    <p class="page-intro">
+      Annuaire du personnel médical et de leurs spécialités.
+    </p>
+
+    <div class="toolbar">
+      <a class="btn btn-primary" href="#">Ajouter un médecin</a>
+      <span class="toolbar-note">Maquette — bouton sans action</span>
+    </div>
+
+    <div class="table-wrap">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Identifiant</th>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>Spécialité</th>
+            <th>Service</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>M-104</td>
+            <td>Rousseau</td>
+            <td>Jean</td>
+            <td>Cardiologue</td>
+            <td>Cardiologie</td>
+          </tr>
+          <tr>
+            <td>M-087</td>
+            <td>Nkosi</td>
+            <td>Grace</td>
+            <td>Pédiatre</td>
+            <td>Pédiatrie</td>
+          </tr>
+          <tr>
+            <td>M-112</td>
+            <td>Petit</td>
+            <td>Marc</td>
+            <td>Médecin urgentiste</td>
+            <td>Urgences</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    Projet de fin — Gestion d'un hôpital · Interface statique (HTML/CSS)
+  </footer>
+</body>
+</html>

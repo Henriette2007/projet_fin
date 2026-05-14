@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patients — Gestion d'hôpital</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body class="layout-body">
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">H</span>
+      <span>Gestion d'hôpital</span>
+    </a>
+    <nav class="nav-main" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="patients.html" class="is-active">Patients</a>
+      <a href="medecins.html">Médecins</a>
+      <a href="rendez-vous.html">Rendez-vous</a>
+      <a href="connexion.html">Connexion</a>
+    </nav>
+  </header>
+
+  <main class="site-main">
+    <h1 class="page-title">Patients</h1>
+    <p class="page-intro">
+      Liste indicative des patients enregistrés. Les données pourront être reliées à une base de données plus tard.
+    </p>
+
+    <div class="toolbar">
+      <a class="btn btn-primary" href="#">Nouveau patient</a>
+      <span class="toolbar-note">Maquette — bouton sans action</span>
+    </div>
+
+    <div class="table-wrap">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>N° dossier</th>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>Service</th>
+            <th>Statut</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>P-2026-001</td>
+            <td>Martin</td>
+            <td>Claire</td>
+            <td>Cardiologie</td>
+            <td>Hospitalisée</td>
+          </tr>
+          <tr>
+            <td>P-2026-002</td>
+            <td>Diallo</td>
+            <td>Amadou</td>
+            <td>Urgences</td>
+            <td>En attente</td>
+          </tr>
+          <tr>
+            <td>P-2026-003</td>
+            <td>Bernard</td>
+            <td>Sophie</td>
+            <td>Pédiatrie</td>
+            <td>Consultation</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    Projet de fin — Gestion d'un hôpital · Interface statique (HTML/CSS)
+  </footer>
+</body>
+</html>
